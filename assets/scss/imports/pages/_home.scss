@@ -434,9 +434,9 @@
       z-index: 10;
 
       &.is-dress-style {
-        top: 39px;
-        right: 52px;
-        left: auto;
+        top: 47%;
+        left: 30px;
+        transform: translateY(-47%);
       }
 
       &.white-cl {
@@ -459,9 +459,11 @@
         right: auto;
 
         &.is-dress-style {
-          top: 30px;
+          top: auto;
+          bottom: 85px;
           right: 25px;
           left: auto;
+          color: #fff;
         }
       }
     }
